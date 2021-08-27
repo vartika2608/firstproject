@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Test_Suite1]" parallel="tests">
+  <test name="Smoke testing(failed)" parallel="tests">
+    <classes>
+      <class name="com.example.CalculatorTest">
+        <methods>
+          <include name="mul" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.example.CalculatorTest -->
+    </classes>
+  </test> <!-- Smoke testing(failed) -->
+</suite> <!-- Failed suite [Test_Suite1] -->

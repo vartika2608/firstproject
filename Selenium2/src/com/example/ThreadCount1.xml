@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite1">
+<test name="Smoke testing" parallel = "classes" thread-count="3">
+ 
+<classes>
+<class name="com.example.ThreadCount">
+</class>
+</classes>
+ </test>
+</suite>
